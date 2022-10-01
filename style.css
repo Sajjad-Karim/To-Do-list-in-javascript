@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    background-color:#009B77;
+    height: 15vh;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 30px;
+    color: white;
+}
+.main-section{
+    background-color: whitesmoke;
+    height: 85vh;
+}
+.headingh3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+.fsection{
+    display: flex;
+    justify-content:space-around ;
+    height: 30vh;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.label{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.inputtext{
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 0.2rem;
+    border: none;
+    padding: 0px 0px 0px 0.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 1px 2px 2px grey;
+    margin-top: 0.5rem;
+}
+.fa-times{
+    color: #009B77;
+    position: absolute;
+    top: 57%;
+    right: 23%;
+    cursor: pointer;
+    /* display: none; */
+}
+.maindiv{
+    position: relative;
+}
+.fbtn{
+    height: 1.5rem;
+    width: 3.7rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #009B77;
+    cursor: pointer;
+    color: white;
+    box-shadow: 1px 2px 2px grey;
+    font-weight: bolder;
+}
+.fbtn:hover{
+    background-color: #036d54;
+    color: whitesmoke;
+}
+.tasklist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* display: none; */
+}
+.task{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin-top: 25px;
+}
+.contentoutput{
+    border: none;
+    width: 25rem;
+    height: 1.5rem;
+    padding-left: 0.5rem ;
+    /* background: none; */
+    border-radius: 0.2rem;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px;
+}
+.edit{
+    height: 1.5rem;
+    width: 3.9rem;
+    border: none;
+    font-weight: bolder;
+    background-color: #009B77;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    margin-right: 5px;
+}
+.delete{
+    height: 1.5rem;
+    width: 3.9rem;
+    border: none;
+    font-weight: bolder;
+    background-color: #009B77;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+.fbtn:hover{
+    background-color: #036d54;
+    color: whitesmoke;
+}
